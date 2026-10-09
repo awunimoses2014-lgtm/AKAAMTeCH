@@ -1,0 +1,150 @@
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 90px;
+  min-width: 200px;
+  
+}
+
+.start {
+  display: flex;
+  align-items: center;
+}
+
+.description-paragraph {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.start-button{
+  background-color: rgba(4, 4, 236, 0.922);
+  color: rgb(233, 232, 232);
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 6px;
+  font-size: 6px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.first-header {
+  color: rgb(31, 62, 173);
+  margin-bottom: 6px;
+  font-size: 55px;
+}
+
+.description-paragraph1 {
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.description-paragraph1:hover {
+  text-decoration: underline;
+}
+
+.description-paragraph1:active {
+  color: rgb(147, 206, 206);
+}
+
+.start-button:hover{
+  opacity: 0.8;
+}
+.start-button:active {
+  opacity: 0.7;
+}
+.image-container {
+  height: 500px;
+  flex: 1;
+  background-color: rgb(186, 186, 186);
+  height: 100vh;
+}
+
+.image1 {
+  height: 100%;
+  object-fit: contain;
+  min-width: 300px;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(186, 186, 186);
+  height: 100vh;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px 60px 30px;
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+
+.section2-wrap-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.section2-items {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+
+.section2-tiles {
+  border: 1px solid gray;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 2px 3px 5px rgba(0 0 0  / 15%);
+  cursor: pointer;
+  transition: padding 0.15s, box-shadoe 0.1s;
+}
+
+.section2-tiles:hover {
+  padding: 70px;
+  box-shadow: 3px 4px 3px rgba(26, 14, 250, 0.19);
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  margin-bottom: 40px;
+  gap: 4px;
+}
+
+.section2-items h3 {
+  cursor: pointer;
+  transition: font-size 0.15s, color 0.15s, text-decoration 0.15s;
+}
+
+.section2-items h3:hover {
+ font-size: 18px;
+ color: rgb(77, 216, 216);
+ text-decoration: underline;
+}
+
+
+.icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  transition: height 0.15s, width 0.15s, opacity 0.15s;
+}
+
+.icon:hover {
+  height: 35px;
+  width: 35px;
+  opacity: 0.6;
+}
+

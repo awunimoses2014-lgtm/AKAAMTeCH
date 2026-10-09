@@ -1,0 +1,35 @@
+.head-footer {
+  background-color: blue;
+  color: white;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.footer-items-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 11px;
+}
+
+.footer-items h4 {
+  font-size: 16px;
+}
+
+.footer-items-wrap a {
+  text-decoration: none;
+  color: white;
+}
+
+.head-footer p {
+  font-size: 12px;
+  padding-bottom: 15px;
+}

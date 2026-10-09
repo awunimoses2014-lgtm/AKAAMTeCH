@@ -1,0 +1,162 @@
+.log-into-account {
+  min-height: 100vh;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+form {
+  max-width: 600px;
+  padding: 30px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0 0 0 / 15%);
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.icon-button{
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  margin-left: 5px;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  padding: 2.5px;
+  border-radius: 4px;
+}
+
+.icon-button-eye {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgb(247, 247, 247);
+  border: none;
+   background-color: rgb(247, 247, 247);
+  border: none;
+  padding: 2.5px;
+  border-radius: 4px;
+}
+
+.form-group input::placeholder {
+  color: gray;
+  font-size: 14px;
+}
+  
+
+
+.fa-lock,
+.fa-user,
+.fa-envelope {
+  color: blue;
+}
+
+.fa-eye {
+  right: 10px;
+  cursor: pointer;
+}
+
+.icon-button-eye {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 0.15s;
+}
+
+.login-button:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  color: white;
+}
+.login-button:active {
+  opacity: 0.6;
+  background-color: green;
+  color: white;
+}
+
+.login-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.button-icon {
+  height: 50px;
+  width:50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: transparent;
+}
+
+.form-group input {
+ padding: 7px 30px;
+ font-size: 16px;
+ border-radius: 8px;
+ border: 1px solid gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-details-text {
+  margin-bottom: 10px;
+}
+
+.signup-button {
+  padding: 13px 35px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  transition: background-color 0.15s;
+}
+
+.signup-button:hover {
+  background-color: rgb(86, 31, 213);
+}
+
+
+input::placeholder,
+.form-group input::placeholder {
+  color: lightgray;
+}
