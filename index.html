@@ -3,101 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AkAAMtECH</title>
-  <link rel="stylesheet" href="styles/hero.css">
+  <title>AkaamTech</title>
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
-  <nav class="nav-bar">
-    <div class="identity">
-       <div class="nav-picture">
-        <img class="channel-picture" src="pictures/akaam-Log1.jpeg" alt="AkAAMtECH logo">
-      </div>
-      <div class="nav-name">
-       <p>AkAAMtECH</p>
-      </div>
-    </div>
-   
-    <div class="searchbar">
-      <input class="searchbar-input" type="search" placeholder="Search">
-      <div class="searchbar-container">
-        <button class="search-icon-button">
-         <img class="search-icon" src="pictures/search.svg" alt="search icon">
-      </button>
-      <div class="tooltip">
-          Search
-         </div>
-      </div>
-      <div class="upload-container">
-         <button class="upload-button">
-        <img class="upload-icon" src="pictures/upload.svg" alt="upload">
-      </button>
-      <div class="tooltip">
-          Upload your work
-         </div>
-      </div>
-    </div>
-    <ul class="nav-list">
-      <li>
-        <a  class="nav-items" href="#">
-          Home
-        </a>
-      </li>
-      <li>
-        <a class="nav-items" href="#">
-          Services
-        </a>
-      </li>
-      <li>
-        <a  class="nav-items" href="#">
-        Contact
+  <header class="header-container">
+    <div class="header-section1">
+       <a href="#">
+        <div class="page-logo">
+         <img class="logo" src="pictures/akaam-Log1.jpeg" alt="AkAAMtECH logo">
+        </div>
+       </a>
+      <a href="#">
+        <p class="name">AkAAMtECH</p>
       </a>
-      </li>
-      <li>
-        <a  class="nav-items" href="register.html">
-          Register
+    </div>
+
+    <div class="header-section2">
+       <div class="searchbar">
+        <input class="searchbar-input" type="search" placeholder="Search">
+        <button class="searchbar-icon">
+          <img src="pictures/search.svg" alt="searchbar icon" class="search-icon">
+        </button>
+      </div>
+    </div>
+
+    <nav class="header-section3">
+      <input type="checkbox"
+        id="menu-toggle"
+        class="menu-toggle">
+
+        <label  for="menu-toogle"
+          class="hamburger-label">
+          <img 
+            src="icons/hamburger-menu.svg" 
+            alt="Toggle navigation menu" 
+            class="hamburger-menu-icon"
+            >
+        </label>
+
+      
+      <ul class="nav-list">
+        <li>
+          <a  class="nav-items home" href="website.html">
+            Home
+          </a>
+        </li>
+        <li>
+          <a class="nav-items services" href="#">
+            Services
+          </a>
+        </li>
+        <li>
+          <a  class="nav-items contact" href="#">
+          Contact
         </a>
-      </li>
-    </ul>
-  </nav>
-  <main class="main-page">
-    <section class="section1">
-      <div class="description">
-        <h1 class="first-header">Build Your <br>Dream website</h1>
+        </li>
+        <li>
+          <a  class="nav-items register" href="register.html">
+            Register
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="section1">
+    <div class="description">
+        <h1 class="first-header">
+          Build Your <br>Dream website
+        </h1>
         <p class="description-paragraph">
           we help you create a beautiful, modern and responsive websites that grow your business.
-          </p>
+        </p>
         <div class="start">
           <a href="register.html">
             <button class="start-button">Get Started</button>
           </a>
-          <p class="description-paragraph1">Learn more</p>
+
+          <a href="#">
+            <p class="description-paragraph1">Learn more</p>
+          </a>
         </div>
-     </div>
-      <div class="image-container">
+      </div>
+       <div class="section1-image">
         <img class="image1" src="pictures/laptop2.jpg" alt="website">
       </div>
-    </section>
-    
-    <section class="section2">
-      <div class="services">
+    </div>
+
+    <div class="section2">
+      <div class="section2-services">
         <h2>Our Services</h2>
         <p>We provide the best services to help your business grow.</p>
       </div>
       <div class="section2-wrap-items">
+
         <div class="section2-tiles">
           <div class="section2-items">
             <img class="icon" src="pictures/apple2.jpg" alt="web design icon">
-            <h3>
-              Web design
-            </h3>
-            <p>
-            We design modern and <br>beautiful websites for your <br>brand.
-            </p>
-          </div>
+          <h3>
+            Web design
+          </h3>
+          <p>
+             We design modern and <br>beautiful websites for your <br>brand.
+          </p>
         </div>
+
+          </div>
+          
         <div class="section2-tiles">
           <div class="section2-items">
             <img class="icon" src="pictures/web1.jpg" alt="web design icon">
@@ -109,6 +126,7 @@
             </p>
           </div>
         </div>
+
         <div class="section2-tiles">
           <div class="section2-items">
             <img class="icon" src="pictures/marketing.jpg" alt="web design icon">
@@ -120,24 +138,42 @@
             </p>
           </div>
         </div>
+          
       </div>
-    </section>
-      
-    <footer class="head-footer">
+    </div>
+  </section>
+
+  <footer class="head-footer">
       <div class="footer-items-wrap">
-        <div class="footer-items">
+        <div class="footer-name">
         <h4>
           AkAAMtECH
         </h4>
         <p>
-          We design modern and <br>beautiful websites for your <br>brand.
+          We design modern and beautiful websites for your brand.
         </p>
       </div>
+
+       <div class="footer-items">
+        <h4>
+          Services
+        </h4>
+        <a href="#">
+          Web design
+        </a>
+        <a href="#">
+          Web development
+        </a>
+        <a href="#">
+          Digital marketing
+        </a>
+      </div>
+
       <div class="footer-items">
         <h4>
           Quick Links
         </h4>
-        <a href="#">
+        <a href="website.html">
           Home
         </a>
         <a href="#">
@@ -153,20 +189,7 @@
           Products
         </a>
       </div>
-      <div class="footer-items">
-        <h4>
-          Services
-        </h4>
-        <a href="#">
-          Web design
-        </a>
-        <a href="#">
-          Web development
-        </a>
-        <a href="#">
-          Digital marketing
-        </a>
-      </div>
+     
       <div class="footer-items">
         <h4>
           contact Us
@@ -182,8 +205,10 @@
         </a>
       </div>
       </div>
-      <p>&copy; 2026 AkAAMtECH. All rights reserved</p>
+      <div class="copy-rights">
+        <p>&copy; 2026 AkAAMtECH. All rights reserved</p>
+      </div>
+      
     </footer>
-  </main>
 </body>
 </html>
